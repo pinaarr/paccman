@@ -10,13 +10,13 @@ public class Images extends ImageIcon {
   public Image up, down, left, right;
 	 public void loadImages() {
 	    	
-	  down = new ImageIcon(Image.class.getResource("/down.gif")).getImage();
-	   up= new ImageIcon(Image.class.getResource("/up.gif")).getImage();
-	   left = new ImageIcon(Image.class.getResource("/left.gif")).getImage();
-	   right = new ImageIcon(Image.class.getResource("/right.gif")).getImage();
-	   ghost = new ImageIcon(Image.class.getResource("C:/resim/ghost.gif")).getImage();
-	     heart = new ImageIcon(Image.class.getResource("/heart.png")).getImage();
+	  down = new ImageIcon("./resim/down.gif").getImage();
+	   up= new ImageIcon("./resim/up.gif").getImage();
+	   left = new ImageIcon("./resim/left.gif").getImage();
+	   right = new ImageIcon("./resim/right.gif").getImage();
+	   ghost = new ImageIcon("./resim/hayalet.gif").getImage();
+	     heart = new ImageIcon("./resim/kalp.gif").getImage();
 
-
+ System.out.println("here");
 }
 }
